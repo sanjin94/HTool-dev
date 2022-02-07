@@ -1,1 +1,1 @@
-project-docs/* linguist-documentation
+*.ipynb linguist-language=Python
