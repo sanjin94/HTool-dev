@@ -9,7 +9,6 @@ from sklearn import metrics
 import os
 from PIL import Image
 
-
 import htool as ht
 import input_processing as inp
 
@@ -136,7 +135,6 @@ if  initial_b:
     elif bc == 'Climate data for selected city':
         st.warning('TODO')
 
-
     results = resistance.solve_he(R_mat, tau, R_bound, initial, indoor, outdoor)
     q_calc, Q_calc = resistance.q_Q(results, mesh)
     plt.plot(q_calc, label="q_transient")
@@ -152,7 +150,6 @@ if  initial_b:
     mesh2 = np.append(mesh2, mesh)
     mesh2 = np.append(mesh2, mesh2[-1]+0.01)
     
-
     min_bc = np.amin(indoor)
     min2 = np.amin(outdoor)
     if min2 < min_bc:
@@ -190,10 +187,3 @@ if  initial_b:
         st.image(q_fig, caption='Comparison between q_transient and q_steady state')
     with col2:
         pass #TODO dodaj tablice
-
-    
-
-
-
-    
-
