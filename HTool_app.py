@@ -20,8 +20,7 @@ EMOJI_ICON = "icons/HTool.ico"
 EMOJI_PNG = "icons/HTool.png"
 
 
-st.set_page_config(page_title="HTool", page_icon=EMOJI_ICON,
-                   layout='wide')
+st.set_page_config(page_title="HTool", layout='wide')
 col1, col2 = st.columns([2.5, 4])
 with col2:
     st.image(EMOJI_PNG, width=200)
