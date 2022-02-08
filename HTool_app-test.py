@@ -9,6 +9,7 @@ from sklearn import metrics
 
 import htool as ht
 import input_processing as inp
+import WScrape as WS
 
 test_materijal = ht.Material()
 test_materijal.new_material('beton', cond=2.6, rho=2400, c=1000, l=0.135)
@@ -78,3 +79,7 @@ q_calc_obrnuto, Q_calc_obrnuto = test_otpor.q_Q(results_obrnuto, mesh)
 #plt.show()
 
 print(Q_test, Q_U, Q_calc, Q_calc_obrnuto)
+
+scrape_2021 = WS.WUscrape('Zagreb', 2021)
+city_str = scrape_2021.city_find()
+temperature = scrape_2021.scrape(city_str)
