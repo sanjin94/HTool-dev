@@ -80,6 +80,6 @@ q_calc_obrnuto, Q_calc_obrnuto = test_otpor.q_Q(results_obrnuto, mesh)
 
 print(Q_test, Q_U, Q_calc, Q_calc_obrnuto)
 
-scrape_2021 = WS.WUscrape('Zagreb', 2021)
+scrape_2021 = WS.WUscrape('Osijek', 2021)
 city_str = scrape_2021.city_find()
 temperature = scrape_2021.scrape(city_str)

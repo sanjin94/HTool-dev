@@ -72,9 +72,11 @@ class WUscrape:
                         container = soup.find('table', class_='mat-table cdk-table mat-sort ng-star-inserted')
                         container = container.find_all('span', class_='test-true wu-unit wu-unit-temperature is-degree-visible ng-star-inserted')
                         for i in range(len(container)):
-                            check = container[i].find('span', class_='wu-value wu-value-to')
-                            t_month.append((float(check.text) - 32) * 5 / 9)
+                            if i%2 != 0:
+                                check = container[i].find('span', class_='wu-value wu-value-to')
+                                t_month.append((float(check.text) - 32) * 5 / 9)
                         print(f'Done for: month {m} - day {d}')
+                        #print(f'Number of elements: {len(t_month)}')
                     except:
                         d = d-1
                         print(f'Reruning for: month {m} - day {d+1}')
