@@ -13,7 +13,7 @@ options.add_argument('--headless')
 def render_page(url):
         driver = webdriver.Firefox(options=options)
         driver.get(url)
-        time.sleep(3)
+        time.sleep(1)
         r = driver.page_source
         driver.quit()
         return r
@@ -77,7 +77,7 @@ class WUscrape:
                         print(f'Done for: month {m} - day {d}')
                     except:
                         d = d-1
-                        print(f'Reruning for: month {m} - day {d}')
+                        print(f'Reruning for: month {m} - day {d+1}')
                  
                 temp = np.append(temp, t_month)
                 #plt.plot(temp)
