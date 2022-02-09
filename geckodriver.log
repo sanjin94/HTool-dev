@@ -43070,3 +43070,69 @@ JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.js
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileyY27sL/search.json.mozlz4", (void 0)))
 Exiting due to channel error.
 Exiting due to channel error.
+1644401614779	geckodriver	INFO	Listening on 127.0.0.1:36833
+1644401615290	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "54831" "-no-remote" "-profile" "/tmp/rust_mozprofilemfqeuR"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: glxtest: X error, error_code=2, request_code=152, minor_code=3
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x8086/0x3e9b
+[GFX1-]: PCI candidate 0x10de/0x1f91
+[GFX1-]: glxtest: process failed (exited with status 1)
+1644401615819	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilemfqeuR/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54831/devtools/browser/61a87f72-5ba0-4a9c-b62d-3397a276832b
+1644401617310	Marionette	INFO	Listening on port 33479
+1644401617420	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://z.moatads.com/weatherprebidheader264491819464/moatheader.js, line 288: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://z.moatads.com/weatherprebidheader264491819464/moatheader.js, line 288: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://z.moatads.com/weatherprebidheader264491819464/moatheader.js, line 288: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://z.moatads.com/weatherprebidheader264491819464/moatheader.js, line 288: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+1644401621535	Marionette	INFO	Stopped listening on port 33479
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A014B,name=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A014B,name=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0078,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: /tmp/rust_mozprofilemfqeuR/protections.sqlite
+1644401622541	geckodriver	INFO	Listening on 127.0.0.1:51225
+1644401623053	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "58507" "-no-remote" "-profile" "/tmp/rust_mozprofile9iGXLx"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: glxtest: X error, error_code=2, request_code=152, minor_code=3
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x8086/0x3e9b
+[GFX1-]: PCI candidate 0x10de/0x1f91
+[GFX1-]: glxtest: process failed (exited with status 1)
+1644401623635	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile9iGXLx/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58507/devtools/browser/4a45988a-7c19-44d9-a421-74f8155e36b6
+1644401625088	Marionette	INFO	Listening on port 36903
+1644401625179	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1644401662789	geckodriver	INFO	Listening on 127.0.0.1:54503
+1644401662795	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "47855" "-no-remote" "-profile" "/tmp/rust_mozprofile43QlEq"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: glxtest: X error, error_code=2, request_code=152, minor_code=3
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x8086/0x3e9b
+[GFX1-]: PCI candidate 0x10de/0x1f91
+[GFX1-]: glxtest: process failed (exited with status 1)
+1644401663358	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile43QlEq/search.json.mozlz4", (void 0)))
+Exiting due to channel error.
+Exiting due to channel error.
