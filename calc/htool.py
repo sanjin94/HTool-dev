@@ -5,6 +5,8 @@ from scipy import linalg
 import matplotlib.pyplot as plt
 import pandas as pd
 from sklearn import metrics
+import base64
+
 
 # Material class defines a dictionary conditioning an information
 # on material characteristics of each element layer

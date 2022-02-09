@@ -68,6 +68,9 @@ elif initial == 'Steady-state transfer':
     initial_indoor = st.sidebar.number_input('Write down indoor temperature')
     initial_outdoor = st.sidebar.number_input('Write down outdoor temperature')
 
+v1 = st.sidebar.text_input('Specify transient q vector name')
+v2 = st.sidebar.text_input('Specify steady-state q vector name')
+
 # Main part
 n_layers = 0
 n_layers = st.number_input('Define number of layers', min_value = 0, max_value=10, value=0)
@@ -253,3 +256,6 @@ if  initial_b:
     with col2:
         q_fig = Image.open('results/q.png')
         st.image(q_fig, caption='Comparison between q_transient and q_steady state')
+
+    np.savetxt('results/vectors/' + v1 + '.csv', q_calc, delimiter=",")
+    np.savetxt('results/vectors/' + v2 + '.csv', q_U, delimiter=",")
