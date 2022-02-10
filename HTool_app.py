@@ -68,8 +68,8 @@ elif initial == 'Steady-state transfer':
     initial_indoor = st.sidebar.number_input('Write down indoor temperature')
     initial_outdoor = st.sidebar.number_input('Write down outdoor temperature')
 
-v1 = st.sidebar.text_input('Specify transient q vector name')
-v2 = st.sidebar.text_input('Specify steady-state q vector name')
+v1 = st.sidebar.text_input('Specify transient q vector name', value='v1')
+v2 = st.sidebar.text_input('Specify steady-state q vector name', value='v2')
 
 # Main part
 n_layers = 0
